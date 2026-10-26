@@ -31,4 +31,4 @@ if __name__ == "__main__":
 
     # 4. write {USER_ID: [tasks]} to USER_ID.json
     with open("{}.json".format(employee_id), "w") as f:
-        json.dump({employee_id:tasks}, f)
+        json.dump({employee_id: tasks}, f)
